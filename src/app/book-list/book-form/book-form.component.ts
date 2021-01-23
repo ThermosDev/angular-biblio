@@ -47,6 +47,7 @@ export class BookFormComponent implements OnInit {
 
   onUploadFile(file: File) {
     this.fileIsUploading = true;
+    
     this.booksService.uploadFile(file).then(
       (url: string) => {
         this.fileUrl = url;

@@ -7,6 +7,7 @@ import firebase from 'firebase';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  title: 'Projet Biblio';
   constructor() {
     const config = {
       apiKey: "AIzaSyBcEKSi5JO0Tea7nbK-1aDCgrI2VVeXxjM",
